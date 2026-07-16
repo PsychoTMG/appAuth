@@ -40,7 +40,7 @@ export default function Home() {
   return (
     <>
       <Color />
-      {token && <div>welcome {user?.username}</div>}
+      {token && <div>Welcome {user?.username}</div>}
 
 
 
